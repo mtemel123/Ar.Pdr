@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ar.Present", "Paladin\Ar.Present.csproj", "{7D728267-9BB3-4903-B9B8-435DB57D21E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{279C870E-A197-40A2-A979-E948242EC429}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ar.Model", "Ar.Model\Ar.Model.csproj", "{2D602F6E-49A9-4873-AC08-4904D3D8B2D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ar.Dao", "Ar.Dao\Ar.Dao.csproj", "{6D3F7B33-DE1B-4E7D-8768-748F981E419E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ar.Bus", "Ar.Bus\Ar.Bus.csproj", "{32FAFCEF-6FC0-4872-B51B-A0C66FB36676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ar.Common", "Ar.Common\Ar.Common.csproj", "{5A60DBDB-E757-45AB-9279-25F70DE8EDE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ar.Utility", "Ar.Utility\Ar.Utility.csproj", "{47AF2A0C-7D38-4363-91C3-C976203AB813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ar.Inf", "Ar.Inf\Ar.Inf.csproj", "{301BF042-B2FA-44BF-86F7-75A4A2EF6226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D728267-9BB3-4903-B9B8-435DB57D21E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D728267-9BB3-4903-B9B8-435DB57D21E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D728267-9BB3-4903-B9B8-435DB57D21E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D728267-9BB3-4903-B9B8-435DB57D21E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D602F6E-49A9-4873-AC08-4904D3D8B2D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D602F6E-49A9-4873-AC08-4904D3D8B2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D602F6E-49A9-4873-AC08-4904D3D8B2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D602F6E-49A9-4873-AC08-4904D3D8B2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3F7B33-DE1B-4E7D-8768-748F981E419E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3F7B33-DE1B-4E7D-8768-748F981E419E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3F7B33-DE1B-4E7D-8768-748F981E419E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3F7B33-DE1B-4E7D-8768-748F981E419E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FAFCEF-6FC0-4872-B51B-A0C66FB36676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FAFCEF-6FC0-4872-B51B-A0C66FB36676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FAFCEF-6FC0-4872-B51B-A0C66FB36676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FAFCEF-6FC0-4872-B51B-A0C66FB36676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A60DBDB-E757-45AB-9279-25F70DE8EDE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A60DBDB-E757-45AB-9279-25F70DE8EDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A60DBDB-E757-45AB-9279-25F70DE8EDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A60DBDB-E757-45AB-9279-25F70DE8EDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AF2A0C-7D38-4363-91C3-C976203AB813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AF2A0C-7D38-4363-91C3-C976203AB813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AF2A0C-7D38-4363-91C3-C976203AB813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AF2A0C-7D38-4363-91C3-C976203AB813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301BF042-B2FA-44BF-86F7-75A4A2EF6226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301BF042-B2FA-44BF-86F7-75A4A2EF6226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301BF042-B2FA-44BF-86F7-75A4A2EF6226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301BF042-B2FA-44BF-86F7-75A4A2EF6226}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
